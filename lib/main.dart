@@ -50,6 +50,12 @@ class HomePage extends StatelessWidget {
               title: Text("Email"),
               subtitle: Text("tech.ai3@gmail.com"),
               trailing: Icon(Icons.send),
+            ),
+            ListTile(
+              leading: Icon(Icons.contact_phone),
+              title: Text("Contact Number"),
+              subtitle: Text("7548xxxxxx"),
+              trailing: Icon(Icons.contact_phone),
             )
           ],
         ),
